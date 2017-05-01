@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bantuan"
+            android:icon="@mipmap/ic_menu_bantuan"
+            android:title="Bantuan" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="@mipmap/ic_menu_tentang"
+            android:title="Tentang" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="">
+            <menu>
+            <item
+                android:id="@+id/nav_keluar"
+                android:title="Keluar"/>
+        </menu>
+        </item>
+
+
+    </group>
+
+</menu>

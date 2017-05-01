@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight= "30dp"
+    android:layout_marginLeft = "30dp"
+    android:layout_marginTop="50dp"
+    tools:context="com.example.nora.bcarebabymonitor.Login"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCare"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txt_logo"/>
+
+    <!-- Username -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp">
+        <EditText android:id="@+id/etInput_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Username"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/txt_logo"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/etInput_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/etInput_Username"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:text="Login"
+        android:layout_centerInParent="true"/>
+
+
+
+</LinearLayout>

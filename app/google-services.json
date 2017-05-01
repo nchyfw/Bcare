@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "223154182763",
+    "firebase_url": "https://bcare-cd013.firebaseio.com",
+    "project_id": "bcare-cd013",
+    "storage_bucket": "bcare-cd013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223154182763:android:0ea548a279e0263c",
+        "android_client_info": {
+          "package_name": "com.example.nora.bcarebabymonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223154182763-iht7mkpflhequq4c43lhb4jvaja59ot2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Kfvb04BNMeQefPCM57siAZM9DaEGGrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
